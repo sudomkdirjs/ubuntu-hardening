@@ -1,0 +1,17 @@
+// UFW - Uncomplicated Firewall is a basic firewall that works very well and easy to configure
+
+sudo apt-get install ufw
+
+// Allow SSH and Http services.
+
+sudo ufw allow ssh
+sudo ufw allow http
+
+// Enable the firewall.
+
+sudo ufw enable
+
+// Check the status of the firewall.
+
+sudo ufw status verbose
+
